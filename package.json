@@ -1,0 +1,26 @@
+{
+  "name": "kanagawa-codemirror-theme",
+  "version": "0.1.0",
+  "description": "A port of the Kanagawa Neovim color theme for the CodeMirror editor.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "codemirror",
+    "editor",
+    "kanagawa",
+    "theme",
+    "wave",
+    "dragon",
+    "lotus"
+  ],
+  "author": "Pierre-Alain Castella",
+  "license": "ISC",
+  "dependencies": {
+    "@codemirror/language": "^6.9.0",
+    "@codemirror/state": "^6.2.1",
+    "@codemirror/view": "^6.17.0",
+    "@lezer/highlight": "^1.1.6"
+  }
+}
