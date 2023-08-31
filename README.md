@@ -6,11 +6,26 @@
 
 A port of the beautiful Kanagawa Neovim color theme, including all three flavors `Wave`, `Dragon` and `Lotus`.
 
-# API and usage
+<div align="center">
+  <h3>Wave</h3>
+  <img src="./assets/wave.png" width="1024" >
+</div>
+
+<div align="center">
+  <h3>Dragon</h3>
+  <img src="./assets/dragon.png" width="1024" >
+</div>
+
+<div align="center">
+  <h3>Lotus</h3>
+  <img src="./assets/lotus.png" width="1024" >
+</div>
+
+## API and usage
 
 All three flavors expose the same API.
 
-## Enable both the editor theme and the highlight style
+### Enable both the editor theme and the highlight style
 
 ```ts
 kanagawaWave: Extension;
@@ -30,7 +45,7 @@ new EditorView({
 });
 ```
 
-## Enable just the editor theme:
+### Enable just the editor theme:
 
 ```ts
 kanagawaWaveTheme: Extension;
@@ -50,7 +65,7 @@ new EditorView({
 });
 ```
 
-## Enable just the highlight style:
+### Enable just the highlight style:
 
 ```ts
 kanagawaWaveHighlightStyle: HighlightStyle;
@@ -71,25 +86,8 @@ new EditorView({
 });
 ```
 
-# Pictures
-
-<div align="center">
-  <h3>Wave</h3>
-  <img src="./assets/wave.png" width="1024" >
-</div>
-
-<div align="center">
-  <h3>Dragon</h3>
-  <img src="./assets/dragon.png" width="1024" >
-</div>
-
-<div align="center">
-  <h3>Lotus</h3>
-  <img src="./assets/lotus.png" width="1024" >
-</div>
-
 Credits to [rebelot](https://github.com/rebelot/kanagawa.nvim) for the original Neovim theme.
 
-# License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
